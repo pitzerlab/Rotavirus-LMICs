@@ -300,10 +300,5 @@ Required file types include:
 - Country-order information (`.xlsx`)
 
 ## Citation
-
-If you use the code, model, data, or results from this repository, please cite the associated manuscript:
-
-> Asare EO. *Quantifying and Identifying Strategies to Improve Rotavirus Vaccine Impact in Low- and Middle-Income Countries.*
-
-A formal citation will be added once the manuscript is published.
+Asare EO, Kwon J, Li X, Al-Mamun MA, Lartey BL, Jere KC, et al. Quantifying and Identifying Strategies to Improve Rotavirus Vaccine Impact in Low- and Middle-Income Countries. medRxiv. 2026. doi:10.64898/2026.05.12.26353059.
 
