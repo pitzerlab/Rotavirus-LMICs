@@ -189,7 +189,7 @@ This script runs the vaccination impact model for all 112 LMICs.
 
 The model dynamics are defined in:
 
-`ode_equations.m`
+ode_equations.m
 ```
 The main model script loops over the 112 countries and uses the `icountry` index to identify the country within the loop.
 
