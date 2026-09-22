@@ -23,7 +23,7 @@ Rotavirus-LMICs/
 ├── README.md
 │
 ├── figures/
-│   └── Figure2.eps
+│   └── Figure2.png
 │
 ├── main_model_112_LMICs.m
 ├── ode_equations.m
