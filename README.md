@@ -10,10 +10,16 @@ This repository contains the MATLAB code and model data used to quantify rotavir
 The model evaluates rotavirus vaccine impact under different vaccination schedules, vaccination-coverage scenarios, and assumptions regarding vaccination status from 2025 onward. The analyses incorporate country-specific vaccination coverage, vaccination status, demographic characteristics, and population age distribution for 112 LMICs.
 
 Results
+## Results
+
 The repository contains a figure showing the historical impact of rotavirus vaccination across the 112 LMICs from 2006 to 2024.
 
-Historical Rotavirus Vaccine Impact
-Fig. 2. Impact of the historical rotavirus vaccination program across 112 LMICs from 2006 to 2024. (A) Box plots of annual model-simulated RVGE cases with vaccination (green) and without vaccination (red) across all LMICs. Values above the plots indicate the cumulative number of countries that introduced the vaccine by each year. Spatial distribution of model-predicted RVGE incidence (per 1,000 person-years) in (B) the absence of vaccination and (C) with vaccination for countries that have introduced the vaccine. (D) Percent reduction in RVGE incidence due to vaccination among countries that implemented the vaccine. For each country, the percent change is calculated from the year of vaccine introduction through the end of 2024.
+### Historical Rotavirus Vaccine Impact
+
+**Fig. 2. Impact of the historical rotavirus vaccination program across 112 LMICs from 2006 to 2024.** (A) Box plots of annual model-simulated RVGE cases with vaccination (green) and without vaccination (red) across all LMICs. Values above the plots indicate the cumulative number of countries that introduced the vaccine by each year. Spatial distribution of model-predicted RVGE incidence (per 1,000 person-years) in (B) the absence of vaccination and (C) with vaccination for countries that have introduced the vaccine. (D) Percent reduction in RVGE incidence due to vaccination among countries that implemented the vaccine. For each country, the percent change is calculated from the year of vaccine introduction through the end of 2024.
+
+![Figure 2. Historical impact of rotavirus vaccination across 112 LMICs](figures/Figure2.png)
+
 
 ## Repository Structure
 
