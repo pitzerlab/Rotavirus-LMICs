@@ -74,18 +74,17 @@ For the 95% scaled-up coverage scenario, projected vaccine coverage is set to 0.
 Model Data and Code Description
 The following files contain the model code, input data, model parameters, country ordering, and scenario-specific data used to generate the model results.
 
-| File | Description |
-| --- | --- |
-| `all_uses_6_10_14_sch_1000_sim.mat` | Model input/scenario data used to project vaccine impact when all countries use a three-dose vaccination schedule at 6, 10, and 14 weeks. |
-| `all_switch_to_6_10_sch_1000_sim.mat` | Model input/scenario data used to project vaccine impact when all countries use a two-dose vaccination schedule at 6 and 10 weeks. |
-| `main_model_112_LMICs.m` | Main model script used to run the vaccination impact model for all 112 low- and middle-income countries (LMICs). |
-| `fixed_parameters_for_all_countries_1000_sim.mat` | Fixed model parameters used across all countries and simulations. |
-| `vaccine_coverage.mat` | Contains two country-specific vaccination-coverage datasets, `vacc_cov_baseline` and `vacc_cov`, described below. |
-| `demographic_data_1980_2060.mat` | Country-specific demographic data for 1980–2060, including annual crude birth rates, annual crude death rates, annual population size, and population age distribution. |
-| `current_vacc_status_1000_sim.mat` | Country-specific vaccination status through December 2024. |
-| `ode_equations.m` | Ordinary differential equations (ODEs) defining the model dynamics. |
-| `all_keep_current_vacc_status_1000_sim.mat` | Model input/scenario data used to project vaccine impact from January 2025 onward, assuming countries maintain their 2024 vaccination status. |
-| `icountry_order.xlsx` | Provides the country order corresponding to the `icountry` index used in the main model loop. |
+File	Description
+all_uses_6_10_14_sch_1000_sim.mat	Model input/scenario data used to project vaccine impact when all countries use a three-dose vaccination schedule at 6, 10, and 14 weeks.
+all_switch_to_6_10_sch_1000_sim.mat	Model input/scenario data used to project vaccine impact when all countries use a two-dose vaccination schedule at 6 and 10 weeks.
+main_model_112_LMICs.m	Main model script used to run the vaccination impact model for all 112 low- and middle-income countries (LMICs).
+fixed_parameters_for_all_countries_1000_sim.mat	Fixed model parameters used across all countries and simulations.
+vaccine_coverage.mat	Contains two country-specific vaccination-coverage datasets, vacc_cov_baseline and vacc_cov, described below.
+demographic_data_1980_2060.mat	Country-specific demographic data for 1980–2060, including annual crude birth rates, annual crude death rates, annual population size, and population age distribution.
+current_vacc_status_1000_sim.mat	Country-specific vaccination status through December 2024.
+ode_equations.m	Ordinary differential equations (ODEs) defining the model dynamics.
+all_keep_current_vacc_status_1000_sim.mat	Model input/scenario data used to project vaccine impact from January 2025 onward, assuming countries maintain their 2024 vaccination status.
+icountry_order.xlsx	Provides the country order corresponding to the icountry index used in the main model loop.
 
 The files above are model code, input data, model parameters, vaccination status, demographic data, or scenario-specific input files. They are distinct from the simulation output files generated when the model is run.
 
