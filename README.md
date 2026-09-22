@@ -74,6 +74,11 @@ For the 95% scaled-up coverage scenario, projected vaccine coverage is set to 0.
 Model Data and Code Description
 The following files contain the model code, input data, model parameters, country ordering, and scenario-specific data used to generate the model results.
 
+
+## Model Data and Code Description
+
+The following files contain the model code, input data, model parameters, country ordering, and scenario-specific data used to generate the model results.
+
 | File | Description |
 | --- | --- |
 | `all_uses_6_10_14_sch_1000_sim.mat` | Model input/scenario data used to project vaccine impact when all countries use a three-dose vaccination schedule at 6, 10, and 14 weeks. |
@@ -86,6 +91,9 @@ The following files contain the model code, input data, model parameters, countr
 | `ode_equations.m` | Ordinary differential equations (ODEs) defining the model dynamics. |
 | `all_keep_current_vacc_status_1000_sim.mat` | Model input/scenario data used to project vaccine impact from January 2025 onward, assuming countries maintain their 2024 vaccination status. |
 | `icountry_order.xlsx` | Provides the country order corresponding to the `icountry` index used in the main model loop. |
+
+The files above are model code, input data, model parameters, vaccination status, demographic data, or scenario-specific input files. They are distinct from the simulation output files generated when the model is run.
+
 
 
 The files above are model code, input data, model parameters, vaccination status, demographic data, or scenario-specific input files. They are distinct from the simulation output files generated when the model is run.
