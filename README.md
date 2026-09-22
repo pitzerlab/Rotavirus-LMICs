@@ -46,6 +46,18 @@ Rotavirus-LMICs/
 
 All required model files are placed in the same directory.
 
+### Model Execution Workflow
+
+1. Open MATLAB.
+2. Set `Rotavirus-LMICs` as the current folder.
+3. Check that all required input files are present.
+4. Open `main_model_112_LMICs.m`.
+5. Configure `icountry` if a specific country is required.
+6. Run `main_model_112_LMICs.m`.
+7. By default, the model loops over all 112 LMICs.
+8. Country-specific simulation output files are generated.
+
+
 Model Population
 The model includes 112 low- and middle-income countries (LMICs).
 
