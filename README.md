@@ -92,6 +92,7 @@ The following files contain the model code, input data, model parameters, countr
 | `all_keep_current_vacc_status_1000_sim.mat` | Model input/scenario data used to project vaccine impact from January 2025 onward, assuming countries maintain their 2024 vaccination status. |
 | `icountry_order.xlsx` | Provides the country order corresponding to the `icountry` index used in the main model loop. |
 
+
 The files above are model code, input data, model parameters, vaccination status, demographic data, or scenario-specific input files. They are distinct from the simulation output files generated when the model is run.
 
 
