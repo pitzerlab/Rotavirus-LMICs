@@ -1,4 +1,4 @@
-function dSt=lmics_112_1980_2060_diff_equation_vacc_switching(t,St)
+function dSt=ode_equations(t,St)
 %Differential equations 
 
 global vacc_switch_time  B wm wi1 wi2 u um beta d1 d2 rr1 rr2 ri2 ri3 al v1 v2 v3 sc1 sc2 sc3 sc2n sc3n wv v1_old v2_old v3_old sc1_old sc2_old sc3_old sc2n_old sc3n_old wv_old reintro wA; %immig deaths 
