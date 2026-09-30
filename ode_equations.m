@@ -6,10 +6,10 @@ global vacc_switch_time  B wm wi1 wi2 u um beta d1 d2 rr1 rr2 ri2 ri3 al v1 v2 v
 lamda=beta*(St(2*al+1:3*al)+ri2*St(5*al+1:6*al)+ri3*St(8*al+1:9*al)+St(16*al+1:17*al)+ri2*St(19*al+1:20*al)+ri3*St(22*al+1:23*al))/sum(St);
 
 
-%% -- switching time for different strategy -------------------- 
+%% -- switching time for different strategy -------------------
 if t<=vacc_switch_time     %% if we want to provide country-specific time of vaccine switch
 
-    %%  - --  - current strategy  - - - - - - - - - - - -
+    %%  - --  - current strategy  - - - - - - - - - - -
     
 for i=1:al
     dSt(i,1)=log(1+B(round(t),i))/12*sum(St(:))*(1-v1_old(round(t),1))  - (u(i)+um(i))*St(i) - wm*St(i); %dM/dt  
@@ -97,7 +97,7 @@ end
           
 else   
 
- %%  - - - projected period    
+ %%  - - - projected period
     
 for i=1:al
     dSt(i,1)=log(1+B(round(t),i))/12*sum(St(:))*(1-v1(round(t),1))  - (u(i)+um(i))*St(i) - wm*St(i); %dM/dt  
